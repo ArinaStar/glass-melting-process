@@ -1,1 +1,7 @@
-# glass-melting-process
+# Анализ зеркала стекломассы
+
+Full_program_work: собранный интерфейс с выделением шихты в выбранной зоне
+
+Segmentation2.0: Analyz_gistogramm - методы изменения гистограммы; В папке Operators - операторы выделения границ 
+
+В requirements.txt нужные пакеты для запуска

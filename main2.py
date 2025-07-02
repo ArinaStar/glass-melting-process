@@ -282,7 +282,6 @@ class MainApp(QMainWindow):
         pixmap = QPixmap.fromImage(q_img)
         label.setPixmap(pixmap.scaled(label.size(), Qt.KeepAspectRatio))
 
-
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = MainApp()

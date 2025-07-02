@@ -26,22 +26,6 @@ default_polygon = np.array([
 
 
 def apply_perspective_transform(frame):
-    # src_pts = np.float32([
-    #     [263, 272],
-    #     [771, 275],
-    #     [982, 415],
-    #     [900, 776],
-    #     [129, 776],
-    #     [65, 411]
-    # ])
-    # dst_pts = np.float32([
-    #     [122, 0],
-    #     [612, 0],
-    #     [612, 270],
-    #     [490, 676],
-    #     [122, 676],
-    #     [0, 270]
-    # ])
     dst_pts = np.float32([
         [100, 0],
         [400, 0],
